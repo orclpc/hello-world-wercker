@@ -1,0 +1,13 @@
+box:
+  id: openjdk
+  username: $DOCKER_USERNAME
+  password: $DOCKER_PASSWORD
+  tag: 8
+
+build:
+  steps:
+    - script:
+      name: Build
+      code: 
+        echo "Hello World!"
+
